@@ -17,6 +17,6 @@
 set -e
 
 export VENDOR=samsung
-export DEVICE=c1skt
+export DEVICE=c1lgt
 
 ./../smdk4412-common/extract-files.sh $@

@@ -26,25 +26,25 @@ LIBART_IMG_BASE := 0x30000000
 # RIL
 BOARD_PROVIDES_LIBRIL := true
 BOARD_MODEM_TYPE := xmm6262
-TARGET_SPECIFIC_HEADER_PATH += device/samsung/c1skt/include
+TARGET_SPECIFIC_HEADER_PATH += device/samsung/c1lgt/include
 BOARD_GLOBAL_CFLAGS += -DDISABLE_ASHMEM_TRACKING
-BOARD_RIL_CLASS := ../../../device/samsung/c1skt/ril
+BOARD_RIL_CLASS := ../../../device/samsung/c1lgt/ril
 
 # Graphics
 TARGET_REQUIRES_SYNCHRONOUS_SETSURFACE := true
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/c1skt/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/c1lgt/bluetooth
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
-TARGET_KERNEL_CONFIG := lineageos_c1skt_defconfig
+TARGET_KERNEL_CONFIG := lineageos_c1lgt_defconfig
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_c1
-TARGET_LIBINIT_C1_DEFINES_FILE := device/samsung/c1skt/init/init_c1skt.cpp
+TARGET_LIBINIT_C1_DEFINES_FILE := device/samsung/c1lgt/init/init_c1lgt.cpp
 TARGET_UNIFIED_DEVICE := true
-TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/c1skt/releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/c1lgt/releasetools
 
 # Cache
 BOARD_CACHEIMAGE_PARTITION_SIZE := 1048576
@@ -52,7 +52,7 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := f2fs
 BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/samsung/c1skt/rootdir/fstab.smdk4x12
+TARGET_RECOVERY_FSTAB := device/samsung/c1lgt/rootdir/fstab.smdk4x12
 TARGET_RECOVERY_DENSITY := mdpi
 TARGET_USERIMAGES_USE_F2FS := true
 RECOVERY_FSTAB_VERSION := 2
@@ -62,7 +62,7 @@ TARGET_POWERHAL_VARIANT := pegasusq
 
 # Selinux
 BOARD_SEPOLICY_DIRS += \
-    device/samsung/c1skt/selinux
+    device/samsung/c1lgt/selinux
 
 # assert
 TARGET_OTA_ASSERT_DEVICE := m0,i9300,GT-I9300,c1skt,c1ktt,c1lgt,SHV-E210S,SHV-E210K,SHV-E210L

@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/c1skt
+LOCAL_PATH := device/samsung/c1lgt
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -127,4 +127,4 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
-$(call inherit-product-if-exists, vendor/samsung/c1skt/c1skt-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/c1lgt/c1lgt-vendor.mk)

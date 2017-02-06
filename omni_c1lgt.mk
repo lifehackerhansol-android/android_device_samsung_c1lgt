@@ -26,11 +26,11 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # This is where we'd set a backup provider if we had one
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
 $(call inherit-product, device/samsung/smdk4412-common/common.mk)
-$(call inherit-product, device/samsung/c1skt/c1skt.mk)
+$(call inherit-product, device/samsung/c1lgt/c1lgt.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := omni_c1skt
-PRODUCT_DEVICE := c1skt
+PRODUCT_NAME := omni_c1lgt
+PRODUCT_DEVICE := c1lgt
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_MODEL := SHV-E210S
+PRODUCT_MODEL := SHV-E210L

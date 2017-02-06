@@ -1,5 +1,5 @@
 #
-# system.prop for SHV-E210S
+# system.prop for SHV-E210L
 #
 
 config.disable_atlas=true

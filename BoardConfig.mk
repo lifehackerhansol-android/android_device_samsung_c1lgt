@@ -38,7 +38,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/c1lgt/bluetooth
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
-TARGET_KERNEL_CONFIG := boeffla_c1lgt_defconfig
+TARGET_KERNEL_CONFIG := lineageos_c1lgt_defconfig
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_c1

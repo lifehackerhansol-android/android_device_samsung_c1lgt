@@ -19,5 +19,6 @@ ro.ril.disable.power.collapse=0
 
 # Ril
 ro.ril.telephony.mqanelements=6
-telephony.lteOnGsmDevice=1
-ro.telephony.default_network=9
+telephony.lteOnCdmaDevice=1
+ro.telephony.default_network=8
+ro.cdma.subscribe_on_ruim_ready=true
